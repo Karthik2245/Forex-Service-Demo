@@ -7,7 +7,7 @@ Prototype of a REST based microservice with the following functions.
 * Exchange rates for a given time range.
 
 Uses data from <http://exchangeratesapi.io> with a scheduled task. Scheduling is configured at `application.properties`
-
+It supports H2 as the in-memory database.
 Keywords: Spring Boot, Feign Client, Maven 
 
 ## Usage
