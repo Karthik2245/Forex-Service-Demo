@@ -1,8 +1,8 @@
-package org.forex.rates.service;
+package org.exchange.rates.service;
 
-import org.forex.rates.exceptions.ResourceNotFoundException;
-import org.forex.rates.model.entity.ExchangeRate;
-import org.forex.rates.persistence.ExchangeRateRepository;
+import org.exchange.rates.exceptions.ResourceNotFoundException;
+import org.exchange.rates.model.entity.ExchangeRate;
+import org.exchange.rates.persistence.ExchangeRateRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package org.forex.rates.exceptions;
+package org.exchange.rates.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException {
 
